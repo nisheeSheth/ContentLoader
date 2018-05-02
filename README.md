@@ -4,10 +4,21 @@ This library allows you to easily add FaceBook style animated loading placeholde
 
 ## Usage
 
+Use in Tableview and Collationview Like this:
+
 ```swift
 
 Loader.addLoaderToTableView(self.tableView) 		// to add 
 Loader.removeLoaderFromTableView(self.tableView)	// to remove
+
+```
+
+Use in UIView Like this:
+
+```swift
+
+Loader.addLoaderToViews([viewLoader])		// to add 
+Loader.removeLoaderFromViews([viewLoader])	// to remove
 
 ```
 
